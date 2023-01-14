@@ -395,3 +395,12 @@ body {
     grid-area: g3;
     transform: rotate(var(--flip));
 }
+
+/* Jack queen king */
+
+[data-number='J'] .sign:nth-child(1),
+[data-number='Q'] .sign:nth-child(1),
+[data-number='K'] .sign:nth-child(1) {
+    grid-area: a1 / a1 / g3 / g3;
+    background-size: 100% 85%;
+}

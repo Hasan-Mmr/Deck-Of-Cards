@@ -251,15 +251,16 @@ body {
 }
 
 [data-number='7'] .sign:nth-child(3) {
-    grid-area: b2;
+    grid-area: b2 / b2 / c2 / c2;
+    background-size: 100% 50%;
 }
 
 [data-number='7'] .sign:nth-child(4) {
-    grid-area: c1;
+    grid-area: d1;
 }
 
 [data-number='7'] .sign:nth-child(5) {
-    grid-area: c3;
+    grid-area: d3;
 }
 
 [data-number='7'] .sign:nth-child(6) {
